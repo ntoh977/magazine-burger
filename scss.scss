@@ -9,9 +9,11 @@ li {
 }
 
 body {
-    font-family: 'Inter';
+    font-family: 'Gilroy';
     font-style: normal;
-    background-color: #FFFFFF;
+    background: #403C3B;
+    color: #fff;
+   
 }
 
 .container {
@@ -23,4 +25,192 @@ body {
     position: absolute;
     left: 72px;
     transform: translateY(-93px);
+}
+
+.top__container {
+    padding: 38px 38px 40px 98px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top__input {
+    width: 555px;
+    height: auto;
+
+    img {
+        height: 24px;
+        width: 24px;
+    }
+
+    .location {
+        left: 17px;
+    }
+
+    .search_ig {
+        position: absolute;
+        right: 17px;
+    }
+
+    input::placeholder {
+        position: relative;
+        left: 48px;
+    }
+}
+
+.top__logo {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    /* identical to box height, or 100% */
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    position: relative;
+
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #CFCFCF;
+    background: #504B4A;
+    border-radius: 10px;
+}
+
+form.example button {
+    position: absolute;
+    border-style: none;
+    color: #CFCFCF;
+    font-size: 17px;
+    cursor: pointer;
+    background: inherit;
+    padding-top: 9px;
+}
+
+.top__tell--top__container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.top__tell--numbcontacts {
+    text-align: left;
+}
+
+.top__tell--contacts {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 167% */
+
+
+    color: #CFCFCF;
+}
+
+.top__tell__img {
+    position: relative;
+
+    .calling {
+        position: absolute;
+        top: 50%;
+        /* position the top  edge of the element at the middle of the parent */
+        left: 50%;
+        /* position the left edge of the element at the middle of the parent */
+
+        transform: translate(-50%, -50%);
+        height: 12.67px;
+        width: 12.67px;
+    }
+}
+
+.top__tell--numb {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 167% */
+    color: #FFFFFF;
+}
+
+.top__tell--top__container {
+    display: flex;
+    align-items: center;
+}
+
+.top__btn {
+    display: flex;
+    align-items: center;
+    padding: 12px 27px;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 10px;
+    position: relative;
+    .top__btn-text::after{
+        content: "";
+        position: absolute;
+        height: 29px;
+        width: 3px;
+        left: 98px;
+        top: 14px;
+        bottom: 10px;
+        background-color: #FFFFFF;
+        opacity: 0.5;
+    }
+
+    .top__btn--numder--product {
+
+        background-color: #FFFFFF;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 14px;
+        padding: 10px 11px;
+        border-radius: 50%;
+        color: #403C3B;
+        margin-left: 32px;
+    }
+}
+
+.top__btn-text {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.top__btn--ellipse {
+    position: relative;
+
+    .top__btn-numb {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;
+        color: #403C3B;
+    }
+}
+
+.top__btn--ellipse {
+    background-image: url(./img/Ellipse_50.png);
+    background-size: 100% 100%;
+}
+.menu__img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
