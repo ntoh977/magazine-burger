@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Inter';
+  font-style: normal;
+  background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+#top {
+  position: absolute;
+  left: 72px;
+  transform: translateY(-93px);
+}
+
+/*# sourceMappingURL=scss.css.map */
