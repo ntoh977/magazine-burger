@@ -13,7 +13,7 @@ body {
     font-style: normal;
     background: #403C3B;
     color: #fff;
-   
+
 }
 
 .container {
@@ -155,7 +155,8 @@ form.example button {
     background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
     border-radius: 10px;
     position: relative;
-    .top__btn-text::after{
+
+    .top__btn-text::after {
         content: "";
         position: absolute;
         height: 29px;
@@ -189,8 +190,8 @@ form.example button {
     font-size: 14px;
     line-height: 17px;
     /* identical to box height */
-    
-    
+
+
     color: #FFFFFF;
 }
 
@@ -209,8 +210,72 @@ form.example button {
     background-image: url(./img/Ellipse_50.png);
     background-size: 100% 100%;
 }
+
+.menu {
+    position: relative;
+
+    .text {
+        position: absolute;
+        top: 73px;
+        left: 95px;
+        max-width: 613px;
+        font-family: 'Zing Rust Demo';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 109.2%;
+        /* or 73px */
+        text-transform: uppercase;
+        text-align: center;
+        color: #FFFFFF;
+
+        transform: rotate(-8.37deg);
+    }
+
+    .menu__btn {
+        height: 67px;
+        width: 242px;
+        position: absolute;
+        bottom: 93px;
+        left: 95px;
+        background-image: url(./img/Rectangle\ 19.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    
+     
+        transform: rotate(-8.37deg);
+        color: #FFFFFF;
+
+        .menu__btn-text {
+            position: absolute;
+            top: 21px;
+            left: 0;
+            right: 0;
+            bottom: 10px;
+            transform: translateY(-50%);
+        font-family: 'Zing Rust Demo';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 109.2%;
+        /* or 27px */
+
+        text-align: center;
+        transform: rotate(-8.37deg);
+        color: #FFFFFF;
+        }
+    }
+        
+
+}
+
 .menu__img {
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+@font-face {
+    font-family: Zing Rust Demo;
+    src: url("./fonts/ZingRustDemo-Base.otf") format("opentype");
 }
