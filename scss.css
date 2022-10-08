@@ -429,6 +429,7 @@ form.example button {
 }
 .our-cafe .our-cafe__center_bottom2 {
   z-index: 3;
+  left: 0;
 }
 
 .our-cafe__container {
