@@ -19,11 +19,16 @@ li {
   list-style: none;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: 'Gilroy';
   font-style: normal;
   background: #403C3B;
   color: #fff;
+  height: 100%;
 }
 
 .container {
@@ -651,6 +656,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   gap: 86px;
+  padding: 28px 0;
 }
 footer .title {
   font-family: 'Gilroy';
