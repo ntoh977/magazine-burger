@@ -7,14 +7,21 @@ $(document).ready(function () {
     //   });
 
     $('.slider__top').slick({
-        slidesToShow: 3,
+        slidesToShow: 4,
         arrows: true,
         dots: false,
     prevArrow: false,
     nextArrow: false,
+    // centerMode:true,
         // prevArrow: "<div class='visible-lg slick-prev'><img src='./img/Vector__l.png' ></div>",
         // nextArrow: "<div class='visible-lg slick-next'><img src='./img/Vector__r.png' class='rotate'></div>",
         responsive: [
+            {
+                breakpoint: 1032,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
             {
                 breakpoint: 836,
                 settings: {
@@ -24,6 +31,7 @@ $(document).ready(function () {
             {
                 breakpoint: 580,
                 settings: {
+                    centerMode:true,
                     slidesToShow: 1,
                 }
             }

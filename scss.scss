@@ -53,11 +53,12 @@ body {
 }
 
 #top:hover {
-   
+
     background: linear-gradient(to top right, #000000 0%, #ffffff 100%);
     color: #fff;
- 
+
 }
+
 #top:hover img {
     filter: brightness(0) saturate(100%) invert(100%) sepia(1%) saturate(1298%) hue-rotate(209deg) brightness(118%) contrast(100%);
 }
@@ -507,12 +508,13 @@ form.example button {
     position: relative;
     // height: 595px;
     margin-bottom: 50px;
-overflow: hidden;
+    overflow: hidden;
+
     // .our-cafe__mask_group,
     .our-cafe__center_bottom,
     .our-cafe__center_bottom2 {
         position: absolute;
-       
+
     }
 
     .our-cafe__mask_group {
@@ -529,7 +531,7 @@ overflow: hidden;
     .our-cafe__center_bottom2 {
         z-index: 3;
         left: 0;
-       
+
     }
 }
 
@@ -809,6 +811,61 @@ footer {
     }
 }
 
-@media (max-width:1440px){
+@media (max-width:1164px) {
+    .top__container {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 30px;
+    }
+}
+@media (max-width:1110px) {
+    .menu--catigory li {
+        padding: 10px 0;
+   
+    }
+    .menu--catigory {
+        padding-right: 20px;
+    }
+}
+@media (max-width:588px) {
+    .menu .text {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 31px;
+    }
+    .menu .menu__btn {
+        
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
+      }
+      .slick-slide {
+        margin: 0 10px;
+    }
+    .blockproduct .title-main {
+   
+        padding: 0 30px;
+    }
+    .blockproduct .title-main::before {
+        
+        left: 15px;
+      
+    }
+}
+@media (max-width:493px) {
+    .menu .text {
+      
+        font-size: 6vw;
+    }
+}
+@media (max-width:385px) {
+    .top__container {
+        justify-content: center;
+    }
+    .blockproduct .blockproduct-price-btn .price {
+            font-size: 4vw;
+    }
 }
