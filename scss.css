@@ -32,9 +32,18 @@ body {
 }
 
 #top {
+  height: 64px;
+  width: 64px;
   position: absolute;
   left: 72px;
   transform: translateY(-93px);
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+}
+
+.on__top__btnimg {
+  position: absolute;
 }
 
 .top__container {
@@ -636,6 +645,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 86px;
 }
 footer .title {
   font-family: 'Gilroy';
@@ -646,9 +656,10 @@ footer .title {
   /* identical to box height, or 100% */
   letter-spacing: 0.15em;
   color: #FFFFFF;
+  margin-bottom: 15px;
 }
 footer .footer__menu {
-  max-width: 208px;
+  max-width: 267px;
 }
 footer .footer__menu li {
   font-family: 'Gilroy';
@@ -656,7 +667,12 @@ footer .footer__menu li {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+  margin: 7px 0;
   color: #FFFFFF;
+}
+footer .footer__menu2 {
+  display: flex;
+  gap: 50px;
 }
 
 /*# sourceMappingURL=scss.css.map */
