@@ -631,4 +631,32 @@ form.example button {
   align-items: center;
 }
 
+footer {
+  background: linear-gradient(270.7deg, #44403F 0.4%, #211F20 100%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .title {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+  /* identical to box height, or 100% */
+  letter-spacing: 0.15em;
+  color: #FFFFFF;
+}
+footer .footer__menu {
+  max-width: 208px;
+}
+footer .footer__menu li {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
 /*# sourceMappingURL=scss.css.map */
