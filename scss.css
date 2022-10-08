@@ -442,6 +442,7 @@ form.example button {
 .our-cafe {
   position: relative;
   margin-bottom: 50px;
+  overflow: hidden;
 }
 .our-cafe .our-cafe__center_bottom,
 .our-cafe .our-cafe__center_bottom2 {

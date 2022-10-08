@@ -507,11 +507,12 @@ form.example button {
     position: relative;
     // height: 595px;
     margin-bottom: 50px;
-
+overflow: hidden;
     // .our-cafe__mask_group,
     .our-cafe__center_bottom,
     .our-cafe__center_bottom2 {
         position: absolute;
+       
     }
 
     .our-cafe__mask_group {
@@ -528,6 +529,7 @@ form.example button {
     .our-cafe__center_bottom2 {
         z-index: 3;
         left: 0;
+       
     }
 }
 
@@ -805,4 +807,8 @@ footer {
         display: flex;
         gap: 50px;
     }
+}
+
+@media (max-width:1440px){
+
 }
